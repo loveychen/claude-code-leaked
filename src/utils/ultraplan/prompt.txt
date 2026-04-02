@@ -1,0 +1,3 @@
+# Ultraplan Prompt
+
+This is a stub file for the ultraplan prompt.

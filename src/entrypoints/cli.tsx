@@ -299,4 +299,7 @@ async function main(): Promise<void> {
 }
 
 // eslint-disable-next-line custom-rules/no-top-level-side-effects
-void main();
+main().catch((err) => {
+  console.error('Fatal error:', err);
+  process.exit(1);
+});
